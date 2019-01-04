@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0252122B21DF2CB700DF754D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252122A21DF2CB700DF754D /* AppDelegate.m */; };
+		0252122E21DF2CB700DF754D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252122D21DF2CB700DF754D /* ViewController.m */; };
+		0252123121DF2CB700DF754D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0252122F21DF2CB700DF754D /* Main.storyboard */; };
+		0252123321DF2CB900DF754D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0252123221DF2CB900DF754D /* Assets.xcassets */; };
+		0252123621DF2CB900DF754D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0252123421DF2CB900DF754D /* LaunchScreen.storyboard */; };
+		0252123921DF2CB900DF754D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252123821DF2CB900DF754D /* main.m */; };
+		0252124321DF2CB900DF754D /* CriptDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252124221DF2CB900DF754D /* CriptDemoTests.m */; };
+		0252124E21DF2CB900DF754D /* CriptDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252124D21DF2CB900DF754D /* CriptDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0252123F21DF2CB900DF754D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0252121E21DF2CB700DF754D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0252122521DF2CB700DF754D;
+			remoteInfo = CriptDemo;
+		};
+		0252124A21DF2CB900DF754D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0252121E21DF2CB700DF754D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0252122521DF2CB700DF754D;
+			remoteInfo = CriptDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0252122621DF2CB700DF754D /* CriptDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CriptDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0252122921DF2CB700DF754D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0252122A21DF2CB700DF754D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0252122C21DF2CB700DF754D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0252122D21DF2CB700DF754D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0252123021DF2CB700DF754D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0252123221DF2CB900DF754D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0252123521DF2CB900DF754D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0252123721DF2CB900DF754D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0252123821DF2CB900DF754D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0252123E21DF2CB900DF754D /* CriptDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriptDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0252124221DF2CB900DF754D /* CriptDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CriptDemoTests.m; sourceTree = "<group>"; };
+		0252124421DF2CB900DF754D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0252124921DF2CB900DF754D /* CriptDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriptDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0252124D21DF2CB900DF754D /* CriptDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CriptDemoUITests.m; sourceTree = "<group>"; };
+		0252124F21DF2CB900DF754D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0252122321DF2CB700DF754D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0252123B21DF2CB900DF754D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0252124621DF2CB900DF754D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0252121D21DF2CB700DF754D = {
+			isa = PBXGroup;
+			children = (
+				0252122821DF2CB700DF754D /* CriptDemo */,
+				0252124121DF2CB900DF754D /* CriptDemoTests */,
+				0252124C21DF2CB900DF754D /* CriptDemoUITests */,
+				0252122721DF2CB700DF754D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0252122721DF2CB700DF754D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0252122621DF2CB700DF754D /* CriptDemo.app */,
+				0252123E21DF2CB900DF754D /* CriptDemoTests.xctest */,
+				0252124921DF2CB900DF754D /* CriptDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0252122821DF2CB700DF754D /* CriptDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0252122921DF2CB700DF754D /* AppDelegate.h */,
+				0252122A21DF2CB700DF754D /* AppDelegate.m */,
+				0252122C21DF2CB700DF754D /* ViewController.h */,
+				0252122D21DF2CB700DF754D /* ViewController.m */,
+				0252122F21DF2CB700DF754D /* Main.storyboard */,
+				0252123221DF2CB900DF754D /* Assets.xcassets */,
+				0252123421DF2CB900DF754D /* LaunchScreen.storyboard */,
+				0252123721DF2CB900DF754D /* Info.plist */,
+				0252123821DF2CB900DF754D /* main.m */,
+			);
+			path = CriptDemo;
+			sourceTree = "<group>";
+		};
+		0252124121DF2CB900DF754D /* CriptDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0252124221DF2CB900DF754D /* CriptDemoTests.m */,
+				0252124421DF2CB900DF754D /* Info.plist */,
+			);
+			path = CriptDemoTests;
+			sourceTree = "<group>";
+		};
+		0252124C21DF2CB900DF754D /* CriptDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0252124D21DF2CB900DF754D /* CriptDemoUITests.m */,
+				0252124F21DF2CB900DF754D /* Info.plist */,
+			);
+			path = CriptDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0252122521DF2CB700DF754D /* CriptDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0252125221DF2CB900DF754D /* Build configuration list for PBXNativeTarget "CriptDemo" */;
+			buildPhases = (
+				0252122221DF2CB700DF754D /* Sources */,
+				0252122321DF2CB700DF754D /* Frameworks */,
+				0252122421DF2CB700DF754D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CriptDemo;
+			productName = CriptDemo;
+			productReference = 0252122621DF2CB700DF754D /* CriptDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0252123D21DF2CB900DF754D /* CriptDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0252125521DF2CB900DF754D /* Build configuration list for PBXNativeTarget "CriptDemoTests" */;
+			buildPhases = (
+				0252123A21DF2CB900DF754D /* Sources */,
+				0252123B21DF2CB900DF754D /* Frameworks */,
+				0252123C21DF2CB900DF754D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0252124021DF2CB900DF754D /* PBXTargetDependency */,
+			);
+			name = CriptDemoTests;
+			productName = CriptDemoTests;
+			productReference = 0252123E21DF2CB900DF754D /* CriptDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0252124821DF2CB900DF754D /* CriptDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0252125821DF2CB900DF754D /* Build configuration list for PBXNativeTarget "CriptDemoUITests" */;
+			buildPhases = (
+				0252124521DF2CB900DF754D /* Sources */,
+				0252124621DF2CB900DF754D /* Frameworks */,
+				0252124721DF2CB900DF754D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0252124B21DF2CB900DF754D /* PBXTargetDependency */,
+			);
+			name = CriptDemoUITests;
+			productName = CriptDemoUITests;
+			productReference = 0252124921DF2CB900DF754D /* CriptDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0252121E21DF2CB700DF754D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Aibo;
+				TargetAttributes = {
+					0252122521DF2CB700DF754D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0252123D21DF2CB900DF754D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0252122521DF2CB700DF754D;
+					};
+					0252124821DF2CB900DF754D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 0252122521DF2CB700DF754D;
+					};
+				};
+			};
+			buildConfigurationList = 0252122121DF2CB700DF754D /* Build configuration list for PBXProject "CriptDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0252121D21DF2CB700DF754D;
+			productRefGroup = 0252122721DF2CB700DF754D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0252122521DF2CB700DF754D /* CriptDemo */,
+				0252123D21DF2CB900DF754D /* CriptDemoTests */,
+				0252124821DF2CB900DF754D /* CriptDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0252122421DF2CB700DF754D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0252123621DF2CB900DF754D /* LaunchScreen.storyboard in Resources */,
+				0252123321DF2CB900DF754D /* Assets.xcassets in Resources */,
+				0252123121DF2CB700DF754D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0252123C21DF2CB900DF754D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0252124721DF2CB900DF754D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0252122221DF2CB700DF754D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0252122E21DF2CB700DF754D /* ViewController.m in Sources */,
+				0252123921DF2CB900DF754D /* main.m in Sources */,
+				0252122B21DF2CB700DF754D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0252123A21DF2CB900DF754D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0252124321DF2CB900DF754D /* CriptDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0252124521DF2CB900DF754D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0252124E21DF2CB900DF754D /* CriptDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0252124021DF2CB900DF754D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0252122521DF2CB700DF754D /* CriptDemo */;
+			targetProxy = 0252123F21DF2CB900DF754D /* PBXContainerItemProxy */;
+		};
+		0252124B21DF2CB900DF754D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0252122521DF2CB700DF754D /* CriptDemo */;
+			targetProxy = 0252124A21DF2CB900DF754D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0252122F21DF2CB700DF754D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0252123021DF2CB700DF754D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0252123421DF2CB900DF754D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0252123521DF2CB900DF754D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0252125021DF2CB900DF754D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0252125121DF2CB900DF754D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0252125321DF2CB900DF754D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = CriptDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.CriptDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0252125421DF2CB900DF754D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = CriptDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.CriptDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0252125621DF2CB900DF754D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = CriptDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.CriptDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CriptDemo.app/CriptDemo";
+			};
+			name = Debug;
+		};
+		0252125721DF2CB900DF754D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = CriptDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.CriptDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CriptDemo.app/CriptDemo";
+			};
+			name = Release;
+		};
+		0252125921DF2CB900DF754D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = CriptDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.CriptDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CriptDemo;
+			};
+			name = Debug;
+		};
+		0252125A21DF2CB900DF754D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LDG6B7S5LU;
+				INFOPLIST_FILE = CriptDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.feeyo.CriptDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CriptDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0252122121DF2CB700DF754D /* Build configuration list for PBXProject "CriptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0252125021DF2CB900DF754D /* Debug */,
+				0252125121DF2CB900DF754D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0252125221DF2CB900DF754D /* Build configuration list for PBXNativeTarget "CriptDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0252125321DF2CB900DF754D /* Debug */,
+				0252125421DF2CB900DF754D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0252125521DF2CB900DF754D /* Build configuration list for PBXNativeTarget "CriptDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0252125621DF2CB900DF754D /* Debug */,
+				0252125721DF2CB900DF754D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0252125821DF2CB900DF754D /* Build configuration list for PBXNativeTarget "CriptDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0252125921DF2CB900DF754D /* Debug */,
+				0252125A21DF2CB900DF754D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0252121E21DF2CB700DF754D /* Project object */;
+}
