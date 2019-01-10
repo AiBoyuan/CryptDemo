@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSString+AES.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSString *password = @"zy1047539560";
+    
+    NSString *encryptStr = [password AES128Encrypt];
+    NSString *decryptStr = [encryptStr AES128Decrypt];
+    
+    NSLog(@"encryptStr:%@ \n decryptStr:%@",encryptStr,decryptStr);
+
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

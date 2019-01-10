@@ -1,12 +1,12 @@
 //
-//  NSString+DES.m
+//  NSString+3DES.m
 //  CriptDemo
 //
 //  Created by Aibo on 2019/1/10.
 //  Copyright © 2019 Aibo. All rights reserved.
 //
 
-#import "NSString+DES.h"
+#import "NSString+3DES.h"
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonCryptor.h>
 #import "GTMBase64/GTMBase64.h"

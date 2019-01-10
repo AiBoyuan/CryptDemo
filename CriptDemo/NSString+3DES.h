@@ -1,5 +1,5 @@
 //
-//  NSString+DES.h
+//  NSString+3DES.h
 //  CriptDemo
 //
 //  Created by Aibo on 2019/1/10.
@@ -12,9 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (DES)
 
-// DES 加密
+// 3DES 加密
 + (NSString *)encryptWithText:(NSString *)sText;
-// DES 解密
+// 3DES 解密
 + (NSString *)decryptWithText:(NSString *)sText;
     
 @end

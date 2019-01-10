@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (Crypt)
 
+
 #pragma mark - 散列函数
 /**
  *  计算MD5散列结果
@@ -185,21 +186,6 @@ NS_ASSUME_NONNULL_BEGIN
  *  @return 128个字符的SHA512散列字符串
  */
 - (NSString *)fileSHA512Hash;
-
-#pragma mark - AES/ECB/PKCS7Padding 加解密
-/**
- *  计算AES 128加密结果
- *
- *  @return AES/ECB加密字符串
- */
-- (NSString*) AES128Encrypt;
-
- /**
- *  计算AES 128解密结果
- *
- *  @return AES/ECB解密字符串
- */
-- (NSString*) AES128Decrypt;
 
 @end
 

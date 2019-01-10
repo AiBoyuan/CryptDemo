@@ -15,6 +15,10 @@
 		0252123921DF2CB900DF754D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252123821DF2CB900DF754D /* main.m */; };
 		0252124321DF2CB900DF754D /* CriptDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252124221DF2CB900DF754D /* CriptDemoTests.m */; };
 		0252124E21DF2CB900DF754D /* CriptDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252124D21DF2CB900DF754D /* CriptDemoUITests.m */; };
+		0252125F21DF2E3800DF754D /* GTMBase64 in Resources */ = {isa = PBXBuildFile; fileRef = 0252125E21DF2E3800DF754D /* GTMBase64 */; };
+		0252126221DF478D00DF754D /* NSString+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252126121DF478D00DF754D /* NSString+AES.m */; };
+		025212B021DF5D4F00DF754D /* NSString+Crypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 025212AF21DF5D4F00DF754D /* NSString+Crypt.m */; };
+		025212F421E7396100DF754D /* NSString+3DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 025212F321E7396100DF754D /* NSString+3DES.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		0252124921DF2CB900DF754D /* CriptDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriptDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0252124D21DF2CB900DF754D /* CriptDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CriptDemoUITests.m; sourceTree = "<group>"; };
 		0252124F21DF2CB900DF754D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0252125E21DF2E3800DF754D /* GTMBase64 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GTMBase64; sourceTree = "<group>"; };
+		0252126021DF478D00DF754D /* NSString+AES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AES.h"; sourceTree = "<group>"; };
+		0252126121DF478D00DF754D /* NSString+AES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES.m"; sourceTree = "<group>"; };
+		025212AE21DF5D4F00DF754D /* NSString+Crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Crypt.h"; sourceTree = "<group>"; };
+		025212AF21DF5D4F00DF754D /* NSString+Crypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Crypt.m"; sourceTree = "<group>"; };
+		025212F221E7396100DF754D /* NSString+3DES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+3DES.h"; sourceTree = "<group>"; };
+		025212F321E7396100DF754D /* NSString+3DES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+3DES.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,13 @@
 		0252122821DF2CB700DF754D /* CriptDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0252125E21DF2E3800DF754D /* GTMBase64 */,
+				025212AE21DF5D4F00DF754D /* NSString+Crypt.h */,
+				025212AF21DF5D4F00DF754D /* NSString+Crypt.m */,
+				0252126021DF478D00DF754D /* NSString+AES.h */,
+				0252126121DF478D00DF754D /* NSString+AES.m */,
+				025212F221E7396100DF754D /* NSString+3DES.h */,
+				025212F321E7396100DF754D /* NSString+3DES.m */,
 				0252122921DF2CB700DF754D /* AppDelegate.h */,
 				0252122A21DF2CB700DF754D /* AppDelegate.m */,
 				0252122C21DF2CB700DF754D /* ViewController.h */,
@@ -237,6 +255,7 @@
 			files = (
 				0252123621DF2CB900DF754D /* LaunchScreen.storyboard in Resources */,
 				0252123321DF2CB900DF754D /* Assets.xcassets in Resources */,
+				0252125F21DF2E3800DF754D /* GTMBase64 in Resources */,
 				0252123121DF2CB700DF754D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +282,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0252122E21DF2CB700DF754D /* ViewController.m in Sources */,
+				0252126221DF478D00DF754D /* NSString+AES.m in Sources */,
 				0252123921DF2CB900DF754D /* main.m in Sources */,
 				0252122B21DF2CB700DF754D /* AppDelegate.m in Sources */,
+				025212F421E7396100DF754D /* NSString+3DES.m in Sources */,
+				025212B021DF5D4F00DF754D /* NSString+Crypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
